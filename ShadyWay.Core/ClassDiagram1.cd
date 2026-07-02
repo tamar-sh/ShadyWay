@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShadyWay.Core.Models.BoundingBox">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAIEAAAAAgAAgAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\BoundingBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.CalculatedRoute">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAABAAAAASAEAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CalculatedRoute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.GraphEdge">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEACAAAAAAAAAAAAAAwAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GraphEdge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.GraphNode">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GraphNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.RouteRequest">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAABAAEAQAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RouteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.RouteResult">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAABAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\RouteResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.SunPosition">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\SunPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.User">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAIAAAAACAAggIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadyWay.Core.Models.RouteHistoryItem">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAEASAAAAAAAAAAAACAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\RouteHistoryItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

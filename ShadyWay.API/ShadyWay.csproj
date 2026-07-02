@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9fd5965c-9b13-48f5-9d8b-dce29cc2101b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ה-API מתחבר לשכבת התשתית (Infrastructure) שמכילה את ה-DbContext -->
+    <ProjectReference Include="..\ShadyWay.Infrastructure\ShadyWay.Infrastructure.csproj" />
+    <!-- ה-API משתמש בשירותי ה-Service לבניית גרף ו-Dijkstra -->
+    <ProjectReference Include="..\ShadyWay.Service\ShadyWay.Service.csproj" />
+  </ItemGroup>
+
+</Project>

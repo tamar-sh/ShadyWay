@@ -1,0 +1,29 @@
+## Build output
+bin/
+obj/
+
+## User Secrets / credentials - אסור להעלות לגיטהאב!
+**/secrets.json
+appsettings.Development.json
+service-account-key.json
+*-d611c6e91e16.json
+aqueous-scout-*.json
+*.json.key
+
+## Visual Studio / Rider
+.vs/
+*.user
+*.suo
+.idea/
+
+## Environment files
+.env
+.env.*
+
+## React / Node
+node_modules/
+dist/
+build/
+
+## Logs
+*.log

@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite:
+      מאפשר לעבוד עם PostGIS (גיאומטריות מרחביות) בתוך EF Core דרך PostgreSQL.
+      כולל בתוכו את Npgsql.EntityFrameworkCore.PostgreSQL + NetTopologySuite.
+    -->
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="8.0.11" />
+
+    <!--
+      Google.Apis.Auth: מספקת את מנגנון OAuth 2.0 לאימות מול שירותי גוגל.
+      משמשת ב-GoogleEarthClient לקבלת Access Token באמצעות Service Account.
+    -->
+    <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
+
+    <!--
+      OsmSharp: ספריית C# לקריאת קבצי OSM XML.
+      XmlOsmStreamSource מנתח את התגובה מ-Overpass /api/map לצמתים ודרכים.
+    -->
+    <PackageReference Include="OsmSharp" Version="7.0.0-pre022" />
+
+    <!--
+      Microsoft.Extensions.Configuration.Binder: מאפשר GetSection(...).Get&lt;T&gt;
+      לקריאת מערכים/ערכים טיפוסיים מ-appsettings.json (למשל רשימת שרתי Overpass).
+    -->
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ShadyWay.Data מכירה את ה-Models שמוגדרים ב-ShadyWay.Core -->
+    <ProjectReference Include="..\ShadyWay.Core\ShadyWay.Core.csproj" />
+  </ItemGroup>
+
+</Project>
